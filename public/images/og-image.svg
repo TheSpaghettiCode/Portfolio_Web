@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sfondo -->
+  <rect width="1200" height="630" fill="#1A202C"/>
+  
+  <!-- Pattern di sfondo -->
+  <path d="M0 0h1200v630H0z" fill="url(#pattern)" opacity="0.1"/>
+  
+  <!-- Contenuto -->
+  <g transform="translate(100, 100)">
+    <!-- Logo -->
+    <g transform="scale(0.8)">
+      <rect width="200" height="200" rx="50" fill="#00FF9D"/>
+      <path d="M100 50L150 150H50L100 50Z" fill="#1A202C"/>
+    </g>
+    
+    <!-- Testo -->
+    <text x="250" y="120" font-family="Arial" font-size="48" font-weight="bold" fill="#FFFFFF">
+      Andrea
+    </text>
+    <text x="250" y="180" font-family="Arial" font-size="24" fill="#00FF9D">
+      Portfolio Developer
+    </text>
+  </g>
+  
+  <!-- Definizione del pattern -->
+  <defs>
+    <pattern id="pattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00FF9D" stroke-width="1" opacity="0.2"/>
+    </pattern>
+  </defs>
+</svg> 

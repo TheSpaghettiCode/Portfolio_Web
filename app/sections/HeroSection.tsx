@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { FaGithub, FaLinkedin, FaTwitter, FaUser } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter, FaUser, FaInstagram, FaYoutube, FaDiscord } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { fadeInUp, slideIn } from '../utils/animations';
 import TypewriterText from '../components/TypewriterText';
@@ -45,6 +45,7 @@ const HeroSection = () => {
                 className="text-white hover:text-primary transition-colors"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
+                title="GitHub"
               >
                 <FaGithub size={24} />
               </motion.a>
@@ -55,6 +56,7 @@ const HeroSection = () => {
                 className="text-white hover:text-primary transition-colors"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
+                title="LinkedIn"
               >
                 <FaLinkedin size={24} />
               </motion.a>
@@ -65,8 +67,42 @@ const HeroSection = () => {
                 className="text-white hover:text-primary transition-colors"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
+                title="Twitter"
               >
                 <FaTwitter size={24} />
+              </motion.a>
+              <motion.a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-primary transition-colors"
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                title="Instagram"
+              >
+                <FaInstagram size={24} />
+              </motion.a>
+              <motion.a
+                href="https://youtube.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-primary transition-colors"
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                title="YouTube"
+              >
+                <FaYoutube size={24} />
+              </motion.a>
+              <motion.a
+                href="https://discord.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-primary transition-colors"
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                title="Discord"
+              >
+                <FaDiscord size={24} />
               </motion.a>
             </div>
             <motion.button 
